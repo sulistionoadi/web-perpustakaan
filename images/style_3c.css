@@ -1,0 +1,89 @@
+/* 
+
+LGBlue3c Free Template
+By Herreman David 
+http://www.free-css-templates.com
+
+*/
+
+body { margin:5px 0; padding:0; font: 74% Arial, Sans-Serif; color:#000; line-height: 1.4em; background : #F0F0F0;}
+.content { color: #505050; margin: 0 auto; padding: 0; width: 791px; background: #FFFFFF url(bg.jpg) repeat-y center; }
+
+#toph { background: #F0F0F0 url(top.jpg) no-repeat center top; height: 14px; margin: 0; padding: 0;}
+#header { color: #FFF; padding: 0 15px 0 15px; line-height: 1.0em; }
+	#header .rside { background: #125E81 url(header.jpg) no-repeat; color: #337493; float: right; height: 129px; width: 587px;  font-size: 90%; }
+	#header .citation { text-align: right; padding: 60px 25px 25px 6px; color: #f0f0f0;}
+	#header .lside { background: #FFB424; color: #FFF; height: 129px; width: 174px; padding: 0; margin: 0; float: left; }
+	#header h2 { background-color: inherit; color: #FFF; letter-spacing: 1px; }
+	#header .title { text-align: center; padding-top: 30px;}
+
+#main { margin: 0 20px 0 15px; }	
+#main h2 { background-color: inherit; color: #156184; line-height: 0.2em; }
+#main h3 { font: 85% Arial, Sans-Serif; margin: 0 0 10px 0; padding: 0; color: #5f5f5f; background: inherit; }
+.center { background: #FFF;  width: 375px !important; width: 380px;  float: right; margin: 15px 20px 5px 5px; border-right: 1px solid #f0f0f0; padding-right: 5px;}
+.leftmenu { background: #FFF url(leftbg.jpg) repeat-x; width: 174px; float: left; padding: 0; margin: 0; }
+.padding { padding: 15px; }
+
+.right_side {
+	float: right;
+	width: 165px;
+	background: #FFF;
+	padding: 15px 5px 3px 0px !important;
+	padding: 30px 5px 3px 0px;
+}
+
+
+.img { background: #FFF; float: left; padding: 1px; margin: 5px 8px 5px 0; color: #333; border: 1px solid #e0e0e0; }
+
+/* FOOTER */
+#footer { background: #FFF url(footer.jpg) no-repeat; color: #a0a0a0; height: 43px; text-align: center; font-size: 90%; clear: both; padding: 0px; margin: 0;}
+#footer hr { width: 740px; color: #888; border: 1px solid #f0f0f0; margin: 0 25px 0 25px;  }
+#footer a { 	color: #999; background: #FFF;  text-decoration:none; }
+#footer a:hover { 	background: #FFF;	text-decoration: underline; color: #444;}
+
+/* NAVIGATION */
+.nav { clear: both; text-align: left; color: 	#7D8085; padding: 20px 0 0 0; }
+.nav li { font-weight: bold; margin: 0 0 8px 0; padding: 0 0 0 5px; border-bottom: 1px solid #ccc; }
+.nav li a { color: #546078; text-decoration: none;  }
+.nav li a:hover { color: #F29900; text-decoration: none;  }
+
+
+.boxads { background: #E7EDF0; padding: 5px; border: 1px solid #999; color: #333; }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+p { 	margin: 0 0 5px 0; 	padding: 0; color: #555; background: inherit; }
+
+hr { border: 0; height: 1px; color: #eee; background-color: #eee; }
+a { 	color: #0F5B7F; background: inherit;  text-decoration:none; }
+a:hover { 	background: inherit;	text-decoration: underline; }
+h1 { padding:0; margin:0; color: #0F5B7F; background: inherit;font: bold 1.8em Arial, Sans-Serif; letter-spacing: -1px; }
+h1 a {color: #0F5BFF; background: inherit;}
+h2 { background-color: inherit; 	color:#0F5B7F; font-size:140%; font-weight:bold; margin: 10px 0 10px 0; padding:0; }
+h2 a { color: #0F5B7F; }
+h2 a:hover { 	color: #0F5BAF; text-decoration: none;}
+
+ul { margin: 5px 0 20px 15px; padding : 0; list-style : none;  }
+li { list-style-type: none;	color: #F29900;	margin: 0 0 0px 0;	padding: 0 0 0 0px; }
+li a { color: #546078;  }
+li a:hover { color: #F29900; }
+
+/*----------------- for snews --------------------------*/
+
+fieldset {	border: 1px solid #eee; }
+textarea.text { height: 150px; width: 90%; border: 1px solid #ccc; background: #fff; color: #000; }
+textarea.text:hover { border: 1px solid #eee; background: #FFFFF4; color: #000; }
+input.field { border: 1px solid #ccc; background-color: #3C3C3C; width: 100px; color: #000; }
+input.field:hover { border: 1px solid #eee; background: #ccc; color: #000; }
+input.text { margin: 0; width: 110px;	border: 1px solid #546078; background: #FFF; color: #808080; }
+input.text:hover { border: 1px solid #3a4354; }
+input.searchbutton { 	margin: 0; font-size: 100%; font-family: Arial, Sans-serif; border: none; background: #FFFFFF; color: #333; padding: 1px; font-weight: bold; }
+.date { color: #505050; background: #FFF; text-align: right; margin: 4px 0 5px 0; padding: 0.4em 0 0 0; border-top: 1px solid #ddd; }
+.date a { color: #546078; }
+input.button { background: #FFFFF4; color: #808080; border-right: 1px solid #ccc;	border-bottom: 1px solid #ccc; }
+.comments { 	padding: 10px 10px 8px 10px; margin: 0 0 7px 0; background: #FFF; color: #333; }
+.commentsbox { padding: 8px 0 10px 10px; margin: 0 0 10px 0; background: #f4f4f4; color: #000; }
+.error {	color: #990000;	background-color: #FFF0F0; padding: 7px; margin-top: 5px; margin-bottom: 10px; border: 1px dashed #990000; }
+.error h2 { color: #990000; background: inherit; }
+.success { color: #000000; background: #FAFAFA;	padding: 7px; margin-top: 5px; margin-bottom: 5px; border: 1px dashed #546078; }
+.success h2 { color: #546078; background: inherit; }
